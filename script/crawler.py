@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import time
 
 def get_html(url):
     headers = {
@@ -28,6 +29,9 @@ def get_info(soup):
     info = [i.split(': ') for i in info]
     info_dict = {}
     for i in info:
+        #check for i[i] exsit  盗梦空间bug
+        if(len(i) == 1):
+            continue
         info_dict[i[0]] = i[1].split(' / ')
         if(len(info_dict[i[0]]) == 1):
             info_dict[i[0]] = info_dict[i[0]][0]
@@ -63,7 +67,10 @@ def get_content(url):
     year = soup.find('span', class_ = 'year').get_text().strip('()')
     info = get_info(soup)
     rating = get_rating(soup)
-    intro = "".join(soup.find('span', class_ = "all hidden").get_text().split())
+    if soup.find('span', property = 'v:summary') != None:
+        intro = "".join(soup.find('span', property = 'v:summary').get_text().split())
+    else:
+        intro = "".join(soup.find('span', class_ = "all hidden").get_text().split())
     celebrities  = get_celebrities(url)
 
     content = {}
@@ -77,6 +84,12 @@ def get_content(url):
     return content
 
 if __name__ == '__main__':
-    url = 'https://movie.douban.com/subject/1292052/'
-    content = get_content(url)
-    print(json.dumps(content, indent = 4, ensure_ascii = False))
+    fr = open("../data/Movie_id.csv","r")
+    fw = open("../data/Movie_info.json","w+",encoding='utf-8')
+    for line in fr:
+        time.sleep(0.01)
+        id = line.strip('\n')
+        print(id)
+        url = 'https://movie.douban.com/subject/'+id+'/'
+        content = get_content(url)
+        fw.write(json.dumps(content, indent = 4, ensure_ascii = False)+"\n")
