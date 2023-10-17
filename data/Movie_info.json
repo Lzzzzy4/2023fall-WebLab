@@ -1,565 +1,411 @@
 {
-    "name": "肖申克的救赎 The Shawshank Redemption",
-    "year": "1994",
-    "info": {
-        "导演": "弗兰克·德拉邦特",
-        "编剧": [
-            "弗兰克·德拉邦特",
-            "斯蒂芬·金"
-        ],
-        "主演": [
-            "蒂姆·罗宾斯",
-            "摩根·弗里曼",
-            "鲍勃·冈顿",
-            "威廉姆·赛德勒",
-            "克兰西·布朗",
-            "吉尔·贝罗斯",
-            "马克·罗斯顿",
-            "詹姆斯·惠特摩",
-            "杰弗里·德曼",
-            "拉里·布兰登伯格",
-            "尼尔·吉恩托利",
-            "布赖恩·利比",
-            "大卫·普罗瓦尔",
-            "约瑟夫·劳格诺",
-            "祖德·塞克利拉",
-            "保罗·麦克兰尼",
-            "芮妮·布莱恩",
-            "阿方索·弗里曼",
-            "V·J·福斯特",
-            "弗兰克·梅德拉诺",
-            "马克·迈尔斯",
-            "尼尔·萨默斯",
-            "耐德·巴拉米",
-            "布赖恩·戴拉特",
-            "唐·麦克马纳斯"
-        ],
-        "类型": [
-            "剧情",
-            "犯罪"
-        ],
-        "制片国家/地区": "美国",
-        "语言": "英语",
-        "上映日期": [
-            "1994-09-10(多伦多电影节)",
-            "1994-10-14(美国)"
-        ],
-        "片长": "142分钟",
-        "又名": [
-            "月黑高飞(港)",
-            "刺激1995(台)",
-            "地狱诺言",
-            "铁窗岁月",
-            "消香克的救赎"
-        ],
-        "IMDb": "tt0111161"
+    "1292052": {
+        "name": "肖申克的救赎 The Shawshank Redemption",
+        "year": "1994",
+        "info": {
+            "导演": "弗兰克·德拉邦特",
+            "编剧": [
+                "弗兰克·德拉邦特",
+                "斯蒂芬·金"
+            ],
+            "主演": [
+                "蒂姆·罗宾斯",
+                "摩根·弗里曼",
+                "鲍勃·冈顿",
+                "威廉姆·赛德勒",
+                "克兰西·布朗",
+                "吉尔·贝罗斯",
+                "马克·罗斯顿",
+                "詹姆斯·惠特摩",
+                "杰弗里·德曼",
+                "拉里·布兰登伯格",
+                "尼尔·吉恩托利",
+                "布赖恩·利比",
+                "大卫·普罗瓦尔",
+                "约瑟夫·劳格诺",
+                "祖德·塞克利拉",
+                "保罗·麦克兰尼",
+                "芮妮·布莱恩",
+                "阿方索·弗里曼",
+                "V·J·福斯特",
+                "弗兰克·梅德拉诺",
+                "马克·迈尔斯",
+                "尼尔·萨默斯",
+                "耐德·巴拉米",
+                "布赖恩·戴拉特",
+                "唐·麦克马纳斯"
+            ],
+            "类型": [
+                "剧情",
+                "犯罪"
+            ],
+            "制片国家/地区": "美国",
+            "语言": "英语",
+            "上映日期": [
+                "1994-09-10(多伦多电影节)",
+                "1994-10-14(美国)"
+            ],
+            "片长": "142分钟",
+            "又名": [
+                "月黑高飞(港)",
+                "刺激1995(台)",
+                "地狱诺言",
+                "铁窗岁月",
+                "消香克的救赎"
+            ],
+            "IMDb": "tt0111161"
+        },
+        "rating": {
+            "评分": "9.7",
+            "评分人数": "2933833",
+            "5星": "85.9%",
+            "4星": "12.7%",
+            "3星": "1.2%",
+            "2星": "0.1%",
+            "1星": "0.1%"
+        },
+        "intro": "一场谋杀案使银行家安迪（蒂姆•罗宾斯TimRobbins饰）蒙冤入狱，谋杀妻子及其情人的指控将囚禁他终生。在肖申克监狱的首次现身就让监狱“大哥”瑞德（摩根•弗里曼MorganFreeman饰）对他另眼相看。瑞德帮助他搞到一把石锤和一幅女明星海报，两人渐成患难之交。很快，安迪在监狱里大显其才，担当监狱图书管理员，并利用自己的金融知识帮助监狱官避税，引起了典狱长的注意，被招致麾下帮助典狱长洗黑钱。偶然一次，他得知一名新入狱的小偷能够作证帮他洗脱谋杀罪。燃起一丝希望的安迪找到了典狱长，希望他能帮自己翻案。阴险伪善的狱长假装答应安迪，背后却派人杀死小偷，让他唯一能合法出狱的希望泯灭。沮丧的安迪并没有绝望，在一个电闪雷鸣的风雨夜，一场暗藏几十年的越狱计划让他自我救赎，重获自由！老朋友瑞德在他的鼓舞和帮助下，也勇敢地奔向自由。本片获得1995年奥...",
+        "celebrities": {
+            "导演 Director": [
+                "弗兰克·德拉邦特 Frank Darabont"
+            ],
+            "演员 Cast": [
+                "蒂姆·罗宾斯 Tim Robbins",
+                "摩根·弗里曼 Morgan Freeman",
+                "鲍勃·冈顿 Bob Gunton",
+                "威廉姆·赛德勒 William Sadler",
+                "克兰西·布朗 Clancy Brown",
+                "吉尔·贝罗斯 Gil Bellows",
+                "马克·罗斯顿 Mark Rolston",
+                "詹姆斯·惠特摩 James Whitmore",
+                "杰弗里·德曼 Jeffrey DeMunn",
+                "拉里·布兰登伯格 Larry Brandenburg",
+                "尼尔·吉恩托利 Neil Giuntoli",
+                "布赖恩·利比 Brian Libby",
+                "大卫·普罗瓦尔 David Proval",
+                "约瑟夫·劳格诺 Joseph Ragno",
+                "祖德·塞克利拉 Jude Ciccolella",
+                "保罗·麦克兰尼 Paul McCrane",
+                "芮妮·布莱恩 Renee Blaine",
+                "阿方索·弗里曼 Alfonso Freeman",
+                "V·J·福斯特 V.J. Foster",
+                "弗兰克·梅德拉诺 Frank Medrano",
+                "马克·迈尔斯 Mack Miles",
+                "尼尔·萨默斯 Neil Summers",
+                "耐德·巴拉米 Ned Bellamy",
+                "布赖恩·戴拉特 Brian Delate",
+                "唐·麦克马纳斯 Don McManus"
+            ],
+            "编剧 Writer": [
+                "弗兰克·德拉邦特 Frank Darabont",
+                "斯蒂芬·金 Stephen King"
+            ],
+            "制片人 Producer": [
+                "丽兹·格洛策 Liz Glotzer",
+                "妮基·马文 Niki Marvin"
+            ],
+            "音乐 Music Department": [
+                "托马斯·纽曼 Thomas Newman"
+            ],
+            "摄影 Camera Department": [
+                "罗杰·狄金斯 Roger Deakins"
+            ],
+            "剪辑 Editorial Department": [
+                "理查德·弗朗西斯-布鲁斯 Richard Francis-Bruce"
+            ],
+            "选角 Casting Department": [
+                "德博拉·阿奎拉 Deborah Aquila"
+            ],
+            "美术 Art Department": [
+                "迈克尔·塞尔顿 Michael Seirton",
+                "泰伦斯·马什 Terence Marsh"
+            ],
+            "服装 Costume Department": [
+                "伊丽莎白·麦克布莱德 Elizabeth McBride"
+            ],
+            "化妆 Makeup Department": [
+                "凯文·黑尼 Kevin Haney",
+                "蒙蒂·韦斯特摩尔 Monty Westmore"
+            ],
+            "副导演 Assistant Director": [
+                "杰西·约翰逊 Jesse V. Johnson"
+            ],
+            "视觉特效 Visual Effects": [
+                "梅利莎·泰勒 Melissa Taylor",
+                "布莱恩·亚当斯 Brian Adams"
+            ],
+            "动作特技 Action or Stunts": [
+                "汤姆·莫尔加 Tom Morga",
+                "本·斯科特 Ben Scott"
+            ]
+        }
     },
-    "rating": {
-        "评分": "9.7",
-        "评分人数": "2933387",
-        "5星": "85.9%",
-        "4星": "12.7%",
-        "3星": "1.2%",
-        "2星": "0.1%",
-        "1星": "0.1%"
+    "1295644": {
+        "name": "这个杀手不太冷 Léon",
+        "year": "1994",
+        "info": {
+            "导演": "吕克·贝松",
+            "编剧": "吕克·贝松",
+            "主演": [
+                "让·雷诺",
+                "娜塔莉·波特曼",
+                "加里·奥德曼",
+                "丹尼·爱罗",
+                "彼得·阿佩尔",
+                "迈克尔·巴达鲁科",
+                "艾伦·格里尼",
+                "伊丽莎白·瑞根",
+                "卡尔·马图斯维奇",
+                "弗兰克·赛格",
+                "麦温",
+                "乔治·马丁",
+                "罗伯特·拉萨多",
+                "亚当·布斯奇",
+                "马里奥·托迪斯科",
+                "萨米·纳塞利"
+            ],
+            "类型": [
+                "剧情",
+                "动作",
+                "犯罪"
+            ],
+            "制片国家/地区": [
+                "法国",
+                "美国"
+            ],
+            "语言": [
+                "英语",
+                "意大利语",
+                "法语"
+            ],
+            "上映日期": "1994-09-14(法国)",
+            "片长": [
+                "110分钟(剧场版)",
+                "133分钟(国际版)"
+            ],
+            "又名": [
+                "终极追杀令(台)",
+                "杀手莱昂",
+                "杀手里昂",
+                "Leon",
+                "Leon"
+            ],
+            "IMDb": "tt0110413"
+        },
+        "rating": {
+            "评分": "9.4",
+            "评分人数": "2319496",
+            "5星": "73.6%",
+            "4星": "22.8%",
+            "3星": "3.3%",
+            "2星": "0.2%",
+            "1星": "0.1%"
+        },
+        "intro": "里昂（让·雷诺饰）是名孤独的职业杀手，受人雇佣。一天，邻居家小姑娘马蒂尔达（纳塔丽·波特曼饰)敲开他的房门，要求在他那里暂避杀身之祸。原来邻居家的主人是警方缉毒组的眼线，只因贪污了一小包毒品而遭恶警（加里·奥德曼饰）杀害全家的惩罚。马蒂尔达得到里昂的留救，幸免于难，并留在里昂那里。里昂教小女孩使枪，她教里昂法文，两人关系日趋亲密，相处融洽。女孩想着去报仇，反倒被抓，里昂及时赶到，将女孩救回。混杂着哀怨情仇的正邪之战渐次升级，更大的冲突在所难免……",
+        "celebrities": {
+            "导演 Director": [
+                "吕克·贝松 Luc Besson"
+            ],
+            "演员 Cast": [
+                "让·雷诺 Jean Reno",
+                "娜塔莉·波特曼 Natalie Portman",
+                "加里·奥德曼 Gary Oldman",
+                "丹尼·爱罗 Danny Aiello",
+                "彼得·阿佩尔 Peter Appel",
+                "迈克尔·巴达鲁科 Michael Badalucco",
+                "艾伦·格里尼 Ellen Greene",
+                "伊丽莎白·瑞根 Elizabeth Regen",
+                "卡尔·马图斯维奇 Carl J. Matusovich",
+                "弗兰克·赛格 Frank Senger",
+                "麦温 Maïwenn",
+                "乔治·马丁 George Martin",
+                "罗伯特·拉萨多 Robert LaSardo",
+                "亚当·布斯奇 Adam Busch",
+                "马里奥·托迪斯科 Mario Todisco",
+                "萨米·纳塞利 Samy Naceri",
+                "让·雨果·安格拉德 Jean-Hugues Anglade",
+                "埃莱娜·卡多纳 Hélène Cardona",
+                "沈晓谦 Xiaoqian Shen",
+                "大塚明夫 Akio Ôtsuka",
+                "Keith A. Glascoe Keith A. Glascoe",
+                " Arsène Jiroyan"
+            ],
+            "编剧 Writer": [
+                "吕克·贝松 Luc Besson"
+            ],
+            "制片人 Producer": [
+                "帕特里斯·勒杜 Patrice Ledoux"
+            ],
+            "音乐 Music Department": [
+                "艾瑞克·塞拉 Eric Serra"
+            ],
+            "摄影 Camera Department": [
+                "蒂埃里·阿博加斯特 Thierry Arbogast"
+            ],
+            "剪辑 Editorial Department": [
+                "西尔维·兰德拉 Sylvie Landra"
+            ],
+            "美术 Art Department": [
+                "弗朗索瓦·贝诺瓦-弗雷斯科 Françoise Benoît-Fresco",
+                "Dan Weil Dan Weil"
+            ],
+            "服装 Costume Department": [
+                "玛加莉·圭达希 Magali Guidasci"
+            ],
+            "副导演 Assistant Director": [
+                "帕斯卡尔·舒梅 Pascal Chaumeil"
+            ]
+        }
     },
-    "intro": "一场谋杀案使银行家安迪（蒂姆•罗宾斯TimRobbins饰）蒙冤入狱，谋杀妻子及其情人的指控将囚禁他终生。在肖申克监狱的首次现身就让监狱“大哥”瑞德（摩根•弗里曼MorganFreeman饰）对他另眼相看。瑞德帮助他搞到一把石锤和一幅女明星海报，两人渐成患难之交。很快，安迪在监狱里大显其才，担当监狱图书管理员，并利用自己的金融知识帮助监狱官避税，引起了典狱长的注意，被招致麾下帮助典狱长洗黑钱。偶然一次，他得知一名新入狱的小偷能够作证帮他洗脱谋杀罪。燃起一丝希望的安迪找到了典狱长，希望他能帮自己翻案。阴险伪善的狱长假装答应安迪，背后却派人杀死小偷，让他唯一能合法出狱的希望泯灭。沮丧的安迪并没有绝望，在一个电闪雷鸣的风雨夜，一场暗藏几十年的越狱计划让他自我救赎，重获自由！老朋友瑞德在他的鼓舞和帮助下，也勇敢地奔向自由。本片获得1995年奥...",
-    "celebrities": {
-        "导演 Director": [
-            "弗兰克·德拉邦特 Frank Darabont"
-        ],
-        "演员 Cast": [
-            "蒂姆·罗宾斯 Tim Robbins",
-            "摩根·弗里曼 Morgan Freeman",
-            "鲍勃·冈顿 Bob Gunton",
-            "威廉姆·赛德勒 William Sadler",
-            "克兰西·布朗 Clancy Brown",
-            "吉尔·贝罗斯 Gil Bellows",
-            "马克·罗斯顿 Mark Rolston",
-            "詹姆斯·惠特摩 James Whitmore",
-            "杰弗里·德曼 Jeffrey DeMunn",
-            "拉里·布兰登伯格 Larry Brandenburg",
-            "尼尔·吉恩托利 Neil Giuntoli",
-            "布赖恩·利比 Brian Libby",
-            "大卫·普罗瓦尔 David Proval",
-            "约瑟夫·劳格诺 Joseph Ragno",
-            "祖德·塞克利拉 Jude Ciccolella",
-            "保罗·麦克兰尼 Paul McCrane",
-            "芮妮·布莱恩 Renee Blaine",
-            "阿方索·弗里曼 Alfonso Freeman",
-            "V·J·福斯特 V.J. Foster",
-            "弗兰克·梅德拉诺 Frank Medrano",
-            "马克·迈尔斯 Mack Miles",
-            "尼尔·萨默斯 Neil Summers",
-            "耐德·巴拉米 Ned Bellamy",
-            "布赖恩·戴拉特 Brian Delate",
-            "唐·麦克马纳斯 Don McManus"
-        ],
-        "编剧 Writer": [
-            "弗兰克·德拉邦特 Frank Darabont",
-            "斯蒂芬·金 Stephen King"
-        ],
-        "制片人 Producer": [
-            "丽兹·格洛策 Liz Glotzer",
-            "妮基·马文 Niki Marvin"
-        ],
-        "音乐 Music Department": [
-            "托马斯·纽曼 Thomas Newman"
-        ],
-        "摄影 Camera Department": [
-            "罗杰·狄金斯 Roger Deakins"
-        ],
-        "剪辑 Editorial Department": [
-            "理查德·弗朗西斯-布鲁斯 Richard Francis-Bruce"
-        ],
-        "选角 Casting Department": [
-            "德博拉·阿奎拉 Deborah Aquila"
-        ],
-        "美术 Art Department": [
-            "迈克尔·塞尔顿 Michael Seirton",
-            "泰伦斯·马什 Terence Marsh"
-        ],
-        "服装 Costume Department": [
-            "伊丽莎白·麦克布莱德 Elizabeth McBride"
-        ],
-        "化妆 Makeup Department": [
-            "凯文·黑尼 Kevin Haney",
-            "蒙蒂·韦斯特摩尔 Monty Westmore"
-        ],
-        "副导演 Assistant Director": [
-            "杰西·约翰逊 Jesse V. Johnson"
-        ],
-        "视觉特效 Visual Effects": [
-            "梅利莎·泰勒 Melissa Taylor",
-            "布莱恩·亚当斯 Brian Adams"
-        ],
-        "动作特技 Action or Stunts": [
-            "汤姆·莫尔加 Tom Morga",
-            "本·斯科特 Ben Scott"
-        ]
-    }
-}
-{
-    "name": "这个杀手不太冷 Léon",
-    "year": "1994",
-    "info": {
-        "导演": "吕克·贝松",
-        "编剧": "吕克·贝松",
-        "主演": [
-            "让·雷诺",
-            "娜塔莉·波特曼",
-            "加里·奥德曼",
-            "丹尼·爱罗",
-            "彼得·阿佩尔",
-            "迈克尔·巴达鲁科",
-            "艾伦·格里尼",
-            "伊丽莎白·瑞根",
-            "卡尔·马图斯维奇",
-            "弗兰克·赛格",
-            "麦温",
-            "乔治·马丁",
-            "罗伯特·拉萨多",
-            "亚当·布斯奇",
-            "马里奥·托迪斯科",
-            "萨米·纳塞利"
-        ],
-        "类型": [
-            "剧情",
-            "动作",
-            "犯罪"
-        ],
-        "制片国家/地区": [
-            "法国",
-            "美国"
-        ],
-        "语言": [
-            "英语",
-            "意大利语",
-            "法语"
-        ],
-        "上映日期": "1994-09-14(法国)",
-        "片长": [
-            "110分钟(剧场版)",
-            "133分钟(国际版)"
-        ],
-        "又名": [
-            "终极追杀令(台)",
-            "杀手莱昂",
-            "杀手里昂",
-            "Leon",
-            "Leon"
-        ],
-        "IMDb": "tt0110413"
-    },
-    "rating": {
-        "评分": "9.4",
-        "评分人数": "2319205",
-        "5星": "73.6%",
-        "4星": "22.8%",
-        "3星": "3.3%",
-        "2星": "0.2%",
-        "1星": "0.1%"
-    },
-    "intro": "里昂（让·雷诺饰）是名孤独的职业杀手，受人雇佣。一天，邻居家小姑娘马蒂尔达（纳塔丽·波特曼饰)敲开他的房门，要求在他那里暂避杀身之祸。原来邻居家的主人是警方缉毒组的眼线，只因贪污了一小包毒品而遭恶警（加里·奥德曼饰）杀害全家的惩罚。马蒂尔达得到里昂的留救，幸免于难，并留在里昂那里。里昂教小女孩使枪，她教里昂法文，两人关系日趋亲密，相处融洽。女孩想着去报仇，反倒被抓，里昂及时赶到，将女孩救回。混杂着哀怨情仇的正邪之战渐次升级，更大的冲突在所难免……",
-    "celebrities": {
-        "导演 Director": [
-            "吕克·贝松 Luc Besson"
-        ],
-        "演员 Cast": [
-            "让·雷诺 Jean Reno",
-            "娜塔莉·波特曼 Natalie Portman",
-            "加里·奥德曼 Gary Oldman",
-            "丹尼·爱罗 Danny Aiello",
-            "彼得·阿佩尔 Peter Appel",
-            "迈克尔·巴达鲁科 Michael Badalucco",
-            "艾伦·格里尼 Ellen Greene",
-            "伊丽莎白·瑞根 Elizabeth Regen",
-            "卡尔·马图斯维奇 Carl J. Matusovich",
-            "弗兰克·赛格 Frank Senger",
-            "麦温 Maïwenn",
-            "乔治·马丁 George Martin",
-            "罗伯特·拉萨多 Robert LaSardo",
-            "亚当·布斯奇 Adam Busch",
-            "马里奥·托迪斯科 Mario Todisco",
-            "萨米·纳塞利 Samy Naceri",
-            "让·雨果·安格拉德 Jean-Hugues Anglade",
-            "埃莱娜·卡多纳 Hélène Cardona",
-            "沈晓谦 Xiaoqian Shen",
-            "大塚明夫 Akio Ôtsuka",
-            "Keith A. Glascoe Keith A. Glascoe",
-            " Arsène Jiroyan"
-        ],
-        "编剧 Writer": [
-            "吕克·贝松 Luc Besson"
-        ],
-        "制片人 Producer": [
-            "帕特里斯·勒杜 Patrice Ledoux"
-        ],
-        "音乐 Music Department": [
-            "艾瑞克·塞拉 Eric Serra"
-        ],
-        "摄影 Camera Department": [
-            "蒂埃里·阿博加斯特 Thierry Arbogast"
-        ],
-        "剪辑 Editorial Department": [
-            "西尔维·兰德拉 Sylvie Landra"
-        ],
-        "美术 Art Department": [
-            "弗朗索瓦·贝诺瓦-弗雷斯科 Françoise Benoît-Fresco",
-            "Dan Weil Dan Weil"
-        ],
-        "服装 Costume Department": [
-            "玛加莉·圭达希 Magali Guidasci"
-        ],
-        "副导演 Assistant Director": [
-            "帕斯卡尔·舒梅 Pascal Chaumeil"
-        ]
-    }
-}
-{
-    "name": "阿甘正传 Forrest Gump",
-    "year": "1994",
-    "info": {
-        "导演": "罗伯特·泽米吉斯",
-        "编剧": [
-            "埃里克·罗思",
-            "温斯顿·格鲁姆"
-        ],
-        "主演": [
-            "汤姆·汉克斯",
-            "罗宾·怀特",
-            "加里·西尼斯",
-            "麦凯尔泰·威廉逊",
-            "莎莉·菲尔德",
-            "海利·乔·奥斯蒙",
-            "迈克尔·康纳·亨弗里斯",
-            "哈罗德·G·赫瑟姆",
-            "山姆·安德森",
-            "伊俄涅·M·特雷奇",
-            "彼得·道博森",
-            "希芳·法隆",
-            "伊丽莎白·汉克斯",
-            "汉娜·豪尔",
-            "克里斯托弗·琼斯",
-            "罗布·兰德里",
-            "杰森·麦克奎尔",
-            "桑尼·施罗耶",
-            "艾德·戴维斯",
-            "丹尼尔C.斯瑞派克",
-            "大卫·布里斯宾",
-            "德博拉·麦克蒂尔",
-            "艾尔·哈林顿",
-            "阿非莫·奥米拉",
-            "约翰·沃德斯塔德",
-            "迈克尔·伯吉斯",
-            "埃里克·安德伍德",
-            "拜伦·明斯",
-            "斯蒂芬·布吉格沃特",
-            "约翰·威廉·高尔特",
-            "希拉里·沙普兰",
-            "伊莎贝尔·罗斯",
-            "理查德·达历山德罗",
-            "迪克·史迪威",
-            "迈克尔-杰斯",
-            "杰弗里·布莱克",
-            "瓦妮莎·罗斯",
-            "迪克·卡维特",
-            "马拉·苏查雷特扎",
-            "乔·阿拉斯奇",
-            "W·本森·泰瑞"
-        ],
-        "类型": [
-            "剧情",
-            "爱情"
-        ],
-        "制片国家/地区": "美国",
-        "语言": "英语",
-        "上映日期": [
-            "1994-06-23(洛杉矶首映)",
-            "1994-07-06(美国)"
-        ],
-        "片长": "142分钟",
-        "又名": "福雷斯特·冈普",
-        "IMDb": "tt0109830"
-    },
-    "rating": {
-        "评分": "9.5",
-        "评分人数": "2186817",
-        "5星": "77.2%",
-        "4星": "19.8%",
-        "3星": "2.7%",
-        "2星": "0.2%",
-        "1星": "0.1%"
-    },
-    "intro": "阿甘（汤姆·汉克斯饰）于二战结束后不久出生在美国南方阿拉巴马州一个闭塞的小镇，他先天弱智，智商只有75，然而他的妈妈是一个性格坚强的女性，她常常鼓励阿甘“傻人有傻福”，要他自强不息。阿甘像普通孩子一样上学，并且认识了一生的朋友和至爱珍妮（罗宾·莱特·潘饰），在珍妮和妈妈的爱护下，阿甘凭着上帝赐予的“飞毛腿”开始了一生不停的奔跑。阿甘成为橄榄球巨星、越战英雄、乒乓球外交使者、亿万富翁，但是，他始终忘不了珍妮，几次匆匆的相聚和离别，更是加深了阿甘的思念。有一天，阿甘收到珍妮的信，他们终于又要见面……",
-    "celebrities": {
-        "导演 Director": [
-            "罗伯特·泽米吉斯 Robert Zemeckis"
-        ],
-        "演员 Cast": [
-            "汤姆·汉克斯 Tom Hanks",
-            "罗宾·怀特 Robin Wright",
-            "加里·西尼斯 Gary Sinise",
-            "麦凯尔泰·威廉逊 Mykelti Williamson",
-            "莎莉·菲尔德 Sally Field",
-            "海利·乔·奥斯蒙 Haley Joel Osment",
-            "迈克尔·康纳·亨弗里斯 Michael Conner Humphreys",
-            "哈罗德·G·赫瑟姆 Harold G. Herthum",
-            "山姆·安德森 Sam Anderson",
-            "伊俄涅·M·特雷奇 Ione M. Telech",
-            "彼得·道博森 Peter Dobson",
-            "希芳·法隆 Siobhan Fallon",
-            "伊丽莎白·汉克斯 Elizabeth Hanks",
-            "汉娜·豪尔 Hanna Hall",
-            "克里斯托弗·琼斯 Christopher Jones",
-            "罗布·兰德里 Rob Landry",
-            "杰森·麦克奎尔 Jason McGuire",
-            "桑尼·施罗耶 Sonny Shroyer",
-            "艾德·戴维斯 Ed Davis",
-            "丹尼尔C.斯瑞派克 Daniel C. Striepeke",
-            "大卫·布里斯宾 David Brisbin",
-            "德博拉·麦克蒂尔 Deborah McTeer",
-            "艾尔·哈林顿 Al Harrington",
-            "阿非莫·奥米拉 Afemo Omilami",
-            "约翰·沃德斯塔德 John Voldstad",
-            "迈克尔·伯吉斯 Michael Burgess",
-            "埃里克·安德伍德 Eric Underwood",
-            "拜伦·明斯 Byron Minns",
-            "斯蒂芬·布吉格沃特 Stephen Bridgewater",
-            "约翰·威廉·高尔特 John William Galt",
-            "希拉里·沙普兰 Hilary Chaplain",
-            "伊莎贝尔·罗斯 Isabel Rose",
-            "理查德·达历山德罗 Richard D'Alessandro",
-            "迪克·史迪威 Dick Stilwell",
-            "迈克尔-杰斯 Michael Jace",
-            "杰弗里·布莱克 Geoffrey Blake",
-            "瓦妮莎·罗斯 Vanessa Roth",
-            "迪克·卡维特 Dick Cavett",
-            "马拉·苏查雷特扎 Marla Sucharetza",
-            "乔·阿拉斯奇 Joe Alaskey",
-            "W·本森·泰瑞 W. Benson Terry",
-            "约翰·列侬 John Lennon",
-            "埃尔维斯·普雷斯利 Elvis Presley",
-            "罗纳德·里根 Ronald Reagan",
-            "鲍勃·霍普 Bob Hope",
-            "约翰·肯尼迪 John F. Kennedy",
-            "理查德·尼克松 Richard Nixon",
-            "吴俊全 Junquan Wu",
-            "蒂莫西·麦克尼尔 Timothy McNeil",
-            "杰拉尔德·福特 Gerald Ford",
-            "布雷特·赖斯 Brett Rice"
-        ],
-        "编剧 Writer": [
-            "埃里克·罗思 Eric Roth",
-            "温斯顿·格鲁姆 Winston Groom"
-        ],
-        "音乐 Music Department": [
-            "亚伦·史维斯查 Alan Silvestri"
-        ],
-        "摄影 Camera Department": [
-            "乔什·布莱布特雷 Josh Bleibtreu",
-            "唐·伯吉斯 Don Burgess"
-        ],
-        "视觉特效 Visual Effects": [
-            "江道格 Doug Chiang",
-            "斯蒂芬·罗森包姆 Stephen Rosenbaum",
-            "肯·拉斯顿 Ken Ralston"
-        ]
-    }
-}
-{
-    "name": "盗梦空间 Inception",
-    "year": "2010",
-    "info": {
-        "导演": "克里斯托弗·诺兰",
-        "编剧": "克里斯托弗·诺兰",
-        "主演": [
-            "莱昂纳多·迪卡普里奥",
-            "约瑟夫·高登-莱维特",
-            "艾利奥特·佩吉",
-            "汤姆·哈迪",
-            "渡边谦",
-            "迪利普·劳",
-            "基里安·墨菲",
-            "汤姆·贝伦杰",
-            "玛丽昂·歌迪亚",
-            "皮特·波斯尔思韦特",
-            "迈克尔·凯恩",
-            "卢卡斯·哈斯",
-            "李太力",
-            "克莱尔·吉尔蕾",
-            "马格努斯·诺兰",
-            "泰勒·吉蕾",
-            "乔纳森·吉尔",
-            "水源士郎",
-            "冈本玉二",
-            "厄尔·卡梅伦",
-            "瑞恩·海沃德",
-            "米兰达·诺兰",
-            "拉什·费加",
-            "蒂姆·科勒赫",
-            "妲露拉·莱莉"
-        ],
-        "类型": [
-            "剧情",
-            "科幻",
-            "悬疑",
-            "冒险"
-        ],
-        "制片国家/地区": [
-            "美国",
-            "英国"
-        ],
-        "语言": [
-            "英语",
-            "日语",
-            "法语"
-        ],
-        "上映日期": [
-            "2010-09-01(中国大陆)",
-            "2020-08-28(中国大陆重映)",
-            "2010-07-16(美国)"
-        ],
-        "片长": "148分钟",
-        "又名": [
-            "潜行凶间(港)",
-            "全面启动(台)",
-            "奠基",
-            "心灵犯案",
-            "记忆迷阵",
-            "记忆魔方"
-        ],
-        "IMDb": "tt1375666"
-    },
-    "rating": {
-        "评分": "9.4",
-        "评分人数": "2090912",
-        "5星": "72.6%",
-        "4星": "23.6%",
-        "3星": "3.5%",
-        "2星": "0.2%",
-        "1星": "0.1%"
-    },
-    "intro": "道姆·柯布（莱昂纳多·迪卡普里奥LeonardoDiCaprio饰）与同事阿瑟（约瑟夫·戈登-莱维特JosephGordon-Levitt饰）和纳什（卢卡斯·哈斯LukasHaas饰）在一次针对日本能源大亨齐藤（渡边谦饰）的盗梦行动中失败，反被齐藤利用。齐藤威逼利诱因遭通缉而流亡海外的柯布帮他拆分他竞争对手的公司，采取极端措施在其唯一继承人罗伯特·费希尔（希里安·墨菲CillianMurphy饰）的深层潜意识中种下放弃家族公司、自立门户的想法。为了重返美国，柯布偷偷求助于岳父迈尔斯（迈克尔·凯恩MichaelCaine饰），吸收了年轻的梦境设计师艾里阿德妮（艾伦·佩吉EllenPage饰）、梦境演员艾姆斯（汤姆·哈迪TomHardy饰）和药剂师约瑟夫（迪利普·劳DileepRao饰）加入行动。在一层层...",
-    "celebrities": {
-        "导演 Director": [
-            "克里斯托弗·诺兰 Christopher Nolan"
-        ],
-        "演员 Cast": [
-            "莱昂纳多·迪卡普里奥 Leonardo DiCaprio",
-            "约瑟夫·高登-莱维特 Joseph Gordon-Levitt",
-            "艾利奥特·佩吉 Elliot Page",
-            "汤姆·哈迪 Tom Hardy",
-            "渡边谦 Ken Watanabe",
-            "迪利普·劳 Dileep Rao",
-            "基里安·墨菲 Cillian Murphy",
-            "汤姆·贝伦杰 Tom Berenger",
-            "玛丽昂·歌迪亚 Marion Cotillard",
-            "皮特·波斯尔思韦特 Pete Postlethwaite",
-            "迈克尔·凯恩 Michael Caine",
-            "卢卡斯·哈斯 Lukas Haas",
-            "李太力 Tai-Li Lee",
-            "克莱尔·吉尔蕾 Claire Geare",
-            "马格努斯·诺兰 Magnus Nolan",
-            "泰勒·吉蕾 Taylor Geare",
-            "乔纳森·吉尔 Johnathan Geare",
-            "水源士郎 Tohoru Masamune",
-            "冈本玉二 Yuji Okumoto",
-            "厄尔·卡梅伦 Earl Cameron",
-            "瑞恩·海沃德 Ryan Hayward",
-            "米兰达·诺兰 Miranda Nolan",
-            "拉什·费加 Russ Fega",
-            "蒂姆·科勒赫 Tim Kelleher",
-            "妲露拉·莱莉 Talulah Riley",
-            "迈克尔·加斯顿 Michael Gaston",
-            "吉尔·马德雷尔 Jill Maddrell",
-            "玛格丽特·因索利亚 Marguerite Insolia",
-            "维吉尔·布莱米 Virgile Bramly",
-            "布拉德·雅各布维茨 Brad Jacobowitz",
-            "Natasha Beaumont Natasha Beaumont"
-        ],
-        "编剧 Writer": [
-            "克里斯托弗·诺兰 Christopher Nolan"
-        ],
-        "制片人 Producer": [
-            "克里斯托弗·诺兰 Christopher Nolan",
-            "艾玛·托马斯 Emma Thomas",
-            "乔丹·戈登伯格 Jordan Goldberg",
-            "托马斯·海斯利普 Thomas Hayslip",
-            "托马斯·图尔 Thomas Tull"
-        ],
-        "音乐 Music Department": [
-            "汉斯·季默 Hans Zimmer"
-        ],
-        "摄影 Camera Department": [
-            "沃利·菲斯特 Wally Pfister"
-        ],
-        "剪辑 Editorial Department": [
-            "李·史密斯 Lee Smith"
-        ],
-        "选角 Casting Department": [
-            "约翰·帕帕席德拉 John Papsidera"
-        ],
-        "美术 Art Department": [
-            "盖·亨德里克斯·戴斯 Guy Hendrix Dyas",
-            "卢克·弗里伯恩 Luke Freeborn",
-            "马修·格雷 Matthew Gray",
-            "布拉德·里奇 Brad Ricker",
-            "德安·沃尔科特 Dean Wolcott",
-            "拉里·迪亚斯 Larry Dias",
-            "道格拉斯·A·莫瓦特 Douglas A. Mowat"
-        ],
-        "服装 Costume Department": [
-            "杰弗里·库兰 Jeffrey Kurland"
-        ],
-        "音效 Sound Department": [
-            "斯科特·刘易斯 Scott R. Lewis"
-        ],
-        "视觉特效 Visual Effects": [
-            "特里·马里奥特 Terry Marriott"
-        ],
-        "动作特技 Action or Stunts": [
-            "雅各布·德维特 Jacob Dewitt"
-        ]
+    "1292720": {
+        "name": "阿甘正传 Forrest Gump",
+        "year": "1994",
+        "info": {
+            "导演": "罗伯特·泽米吉斯",
+            "编剧": [
+                "埃里克·罗思",
+                "温斯顿·格鲁姆"
+            ],
+            "主演": [
+                "汤姆·汉克斯",
+                "罗宾·怀特",
+                "加里·西尼斯",
+                "麦凯尔泰·威廉逊",
+                "莎莉·菲尔德",
+                "海利·乔·奥斯蒙",
+                "迈克尔·康纳·亨弗里斯",
+                "哈罗德·G·赫瑟姆",
+                "山姆·安德森",
+                "伊俄涅·M·特雷奇",
+                "彼得·道博森",
+                "希芳·法隆",
+                "伊丽莎白·汉克斯",
+                "汉娜·豪尔",
+                "克里斯托弗·琼斯",
+                "罗布·兰德里",
+                "杰森·麦克奎尔",
+                "桑尼·施罗耶",
+                "艾德·戴维斯",
+                "丹尼尔C.斯瑞派克",
+                "大卫·布里斯宾",
+                "德博拉·麦克蒂尔",
+                "艾尔·哈林顿",
+                "阿非莫·奥米拉",
+                "约翰·沃德斯塔德",
+                "迈克尔·伯吉斯",
+                "埃里克·安德伍德",
+                "拜伦·明斯",
+                "斯蒂芬·布吉格沃特",
+                "约翰·威廉·高尔特",
+                "希拉里·沙普兰",
+                "伊莎贝尔·罗斯",
+                "理查德·达历山德罗",
+                "迪克·史迪威",
+                "迈克尔-杰斯",
+                "杰弗里·布莱克",
+                "瓦妮莎·罗斯",
+                "迪克·卡维特",
+                "马拉·苏查雷特扎",
+                "乔·阿拉斯奇",
+                "W·本森·泰瑞"
+            ],
+            "类型": [
+                "剧情",
+                "爱情"
+            ],
+            "制片国家/地区": "美国",
+            "语言": "英语",
+            "上映日期": [
+                "1994-06-23(洛杉矶首映)",
+                "1994-07-06(美国)"
+            ],
+            "片长": "142分钟",
+            "又名": "福雷斯特·冈普",
+            "IMDb": "tt0109830"
+        },
+        "rating": {
+            "评分": "9.5",
+            "评分人数": "2187143",
+            "5星": "77.2%",
+            "4星": "19.8%",
+            "3星": "2.7%",
+            "2星": "0.2%",
+            "1星": "0.1%"
+        },
+        "intro": "阿甘（汤姆·汉克斯饰）于二战结束后不久出生在美国南方阿拉巴马州一个闭塞的小镇，他先天弱智，智商只有75，然而他的妈妈是一个性格坚强的女性，她常常鼓励阿甘“傻人有傻福”，要他自强不息。阿甘像普通孩子一样上学，并且认识了一生的朋友和至爱珍妮（罗宾·莱特·潘饰），在珍妮和妈妈的爱护下，阿甘凭着上帝赐予的“飞毛腿”开始了一生不停的奔跑。阿甘成为橄榄球巨星、越战英雄、乒乓球外交使者、亿万富翁，但是，他始终忘不了珍妮，几次匆匆的相聚和离别，更是加深了阿甘的思念。有一天，阿甘收到珍妮的信，他们终于又要见面……",
+        "celebrities": {
+            "导演 Director": [
+                "罗伯特·泽米吉斯 Robert Zemeckis"
+            ],
+            "演员 Cast": [
+                "汤姆·汉克斯 Tom Hanks",
+                "罗宾·怀特 Robin Wright",
+                "加里·西尼斯 Gary Sinise",
+                "麦凯尔泰·威廉逊 Mykelti Williamson",
+                "莎莉·菲尔德 Sally Field",
+                "海利·乔·奥斯蒙 Haley Joel Osment",
+                "迈克尔·康纳·亨弗里斯 Michael Conner Humphreys",
+                "哈罗德·G·赫瑟姆 Harold G. Herthum",
+                "山姆·安德森 Sam Anderson",
+                "伊俄涅·M·特雷奇 Ione M. Telech",
+                "彼得·道博森 Peter Dobson",
+                "希芳·法隆 Siobhan Fallon",
+                "伊丽莎白·汉克斯 Elizabeth Hanks",
+                "汉娜·豪尔 Hanna Hall",
+                "克里斯托弗·琼斯 Christopher Jones",
+                "罗布·兰德里 Rob Landry",
+                "杰森·麦克奎尔 Jason McGuire",
+                "桑尼·施罗耶 Sonny Shroyer",
+                "艾德·戴维斯 Ed Davis",
+                "丹尼尔C.斯瑞派克 Daniel C. Striepeke",
+                "大卫·布里斯宾 David Brisbin",
+                "德博拉·麦克蒂尔 Deborah McTeer",
+                "艾尔·哈林顿 Al Harrington",
+                "阿非莫·奥米拉 Afemo Omilami",
+                "约翰·沃德斯塔德 John Voldstad",
+                "迈克尔·伯吉斯 Michael Burgess",
+                "埃里克·安德伍德 Eric Underwood",
+                "拜伦·明斯 Byron Minns",
+                "斯蒂芬·布吉格沃特 Stephen Bridgewater",
+                "约翰·威廉·高尔特 John William Galt",
+                "希拉里·沙普兰 Hilary Chaplain",
+                "伊莎贝尔·罗斯 Isabel Rose",
+                "理查德·达历山德罗 Richard D'Alessandro",
+                "迪克·史迪威 Dick Stilwell",
+                "迈克尔-杰斯 Michael Jace",
+                "杰弗里·布莱克 Geoffrey Blake",
+                "瓦妮莎·罗斯 Vanessa Roth",
+                "迪克·卡维特 Dick Cavett",
+                "马拉·苏查雷特扎 Marla Sucharetza",
+                "乔·阿拉斯奇 Joe Alaskey",
+                "W·本森·泰瑞 W. Benson Terry",
+                "约翰·列侬 John Lennon",
+                "埃尔维斯·普雷斯利 Elvis Presley",
+                "罗纳德·里根 Ronald Reagan",
+                "鲍勃·霍普 Bob Hope",
+                "约翰·肯尼迪 John F. Kennedy",
+                "理查德·尼克松 Richard Nixon",
+                "吴俊全 Junquan Wu",
+                "蒂莫西·麦克尼尔 Timothy McNeil",
+                "杰拉尔德·福特 Gerald Ford",
+                "布雷特·赖斯 Brett Rice"
+            ],
+            "编剧 Writer": [
+                "埃里克·罗思 Eric Roth",
+                "温斯顿·格鲁姆 Winston Groom"
+            ],
+            "音乐 Music Department": [
+                "亚伦·史维斯查 Alan Silvestri"
+            ],
+            "摄影 Camera Department": [
+                "乔什·布莱布特雷 Josh Bleibtreu",
+                "唐·伯吉斯 Don Burgess"
+            ],
+            "视觉特效 Visual Effects": [
+                "江道格 Doug Chiang",
+                "斯蒂芬·罗森包姆 Stephen Rosenbaum",
+                "肯·拉斯顿 Ken Ralston"
+            ]
+        }
     }
 }

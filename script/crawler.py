@@ -30,8 +30,8 @@ def get_info(soup):
     info_dict = {}
     for i in info:
         #check for i[i] exsit  盗梦空间bug
-        if(len(i) == 1):
-            continue
+        # if(len(i) == 1):
+        #     continue
         info_dict[i[0]] = i[1].split(' / ')
         if(len(info_dict[i[0]]) == 1):
             info_dict[i[0]] = info_dict[i[0]][0]
@@ -84,12 +84,28 @@ def get_content(url):
     return content
 
 if __name__ == '__main__':
-    fr = open("../data/Movie_id.csv","r")
-    fw = open("../data/Movie_info.json","w+",encoding='utf-8')
-    for line in fr:
-        time.sleep(0.01)
+    fread = open("../data/Movie_id.csv","r")
+    #check if file movie_info.json exisit
+    try:
+        fcomplete = open("../data/Movie_info.json","r",encoding='utf-8')
+        set = json.load(fcomplete)
+        cnt = len(set)
+        print(cnt)
+        fcomplete.close()
+    except :
+        set = {}
+        cnt = 0
+
+    for line in fread.readlines()[cnt:]:
         id = line.strip('\n')
         print(id)
         url = 'https://movie.douban.com/subject/'+id+'/'
         content = get_content(url)
-        fw.write(json.dumps(content, indent = 4, ensure_ascii = False)+"\n")
+        set[id] = content
+    
+    fwrite = open("../data/Movie_info.json","w+",encoding='utf-8')
+    fwrite.write(json.dumps(set, indent = 4, ensure_ascii = False)+"\n")
+    fwrite.close()
+
+    fread.close()
+    
