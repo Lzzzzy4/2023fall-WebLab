@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 import time
 
 def get_html(url):
@@ -30,8 +31,8 @@ def get_info(soup):
     info_dict = {}
     for i in info:
         #check for i[i] exsit  盗梦空间bug
-        # if(len(i) == 1):
-        #     continue
+        if(len(i) == 1):
+            continue
         info_dict[i[0]] = i[1].split(' / ')
         if(len(info_dict[i[0]]) == 1):
             info_dict[i[0]] = info_dict[i[0]][0]
@@ -39,6 +40,8 @@ def get_info(soup):
 
 def get_rating(soup):
     rating = soup.find('div', class_ = 'rating_wrap clearbox')
+    if rating == None:
+        return None
     rating_dict = {}
     rating_dict['评分'] = rating.find('strong', class_ = 'll rating_num').get_text()
     rating_dict['评分人数'] = rating.find('a', class_ = 'rating_people').find('span').get_text()
@@ -84,13 +87,17 @@ def get_content(url):
     return content
 
 if __name__ == '__main__':
-    fread = open("../data/Movie_id.csv","r")
+    #获取当前文件路径
+    path = os.path.dirname(__file__)
+    id_path = path + "/../data/Movie_id.csv"
+    info_path = path + "/../data/Movie_info.json"
+    fread = open(id_path, "r")
+
     #check if file movie_info.json exisit
     try:
-        fcomplete = open("../data/Movie_info.json","r",encoding='utf-8')
+        fcomplete = open(info_path, "r",encoding='utf-8')
         set = json.load(fcomplete)
         cnt = len(set)
-        print(cnt)
         fcomplete.close()
     except :
         set = {}
@@ -100,12 +107,15 @@ if __name__ == '__main__':
         id = line.strip('\n')
         print(id)
         url = 'https://movie.douban.com/subject/'+id+'/'
-        content = get_content(url)
+        try:
+            content = get_content(url)
+        except:
+            # 跳出循环
+            break
         set[id] = content
     
-    fwrite = open("../data/Movie_info.json","w+",encoding='utf-8')
-    fwrite.write(json.dumps(set, indent = 4, ensure_ascii = False)+"\n")
-    fwrite.close()
+    with open(info_path, "w+", encoding='utf-8') as fwrite:
+        fwrite.write(json.dumps(set, indent = 4, ensure_ascii = False)+"\n")
 
     fread.close()
     
