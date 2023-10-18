@@ -91,31 +91,45 @@ if __name__ == '__main__':
     path = os.path.dirname(__file__)
     id_path = path + "/../data/Movie_id.csv"
     info_path = path + "/../data/Movie_info.json"
+    error_path = path + "/../data/error_id.txt"
     fread = open(id_path, "r")
 
     #check if file movie_info.json exisit
     try:
         fcomplete = open(info_path, "r",encoding='utf-8')
-        set = json.load(fcomplete)
-        cnt = len(set)
+        id_map = json.load(fcomplete)
         fcomplete.close()
     except :
-        set = {}
-        cnt = 0
+        id_map= {}
+    
+    try:
+        with open(error_path, "r") as ferror:
+            skip_set = set(ferror.read().splitlines())
+    except:
+        skip_set = set()
 
-    for line in fread.readlines()[cnt:]:
+
+    for line in fread.readlines():
         id = line.strip('\n')
+
+        #防止重爬 && 跳过下架电影的id
+        if id in id_map or id in skip_set:
+            continue
+
         print(id)
+
         url = 'https://movie.douban.com/subject/'+id+'/'
         try:
             content = get_content(url)
+            id_map[id] = content
         except:
-            # 跳出循环
-            break
-        set[id] = content
+            with open(error_path, "a+") as ferror:
+                ferror.write(id+"\n")
+
+
     
     with open(info_path, "w+", encoding='utf-8') as fwrite:
-        fwrite.write(json.dumps(set, indent = 4, ensure_ascii = False)+"\n")
+        fwrite.write(json.dumps(id_map, indent = 4, ensure_ascii = False)+"\n")
 
     fread.close()
     
