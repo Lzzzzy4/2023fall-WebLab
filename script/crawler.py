@@ -91,7 +91,7 @@ if __name__ == '__main__':
     path = os.path.dirname(__file__)
     id_path = path + "/../data/Movie_id.csv"
     info_path = path + "/../data/Movie_info.json"
-    error_path = path + "/../data/error_id.txt"
+    error_path = path + "/../data/Movie_error_id.txt"
     fread = open(id_path, "r")
 
     #check if file movie_info.json exisit
@@ -126,8 +126,6 @@ if __name__ == '__main__':
             with open(error_path, "a+") as ferror:
                 ferror.write(id+"\n")
 
-
-    
     with open(info_path, "w+", encoding='utf-8') as fwrite:
         fwrite.write(json.dumps(id_map, indent = 4, ensure_ascii = False)+"\n")
 
