@@ -108,15 +108,15 @@ if __name__ == '__main__':
     except:
         skip_set = set()
 
-    cnt = 0
+    # cnt = 0
     for line in fread.readlines():
         id = line.strip('\n')
 
         #防止重爬 && 跳过下架电影的id
         if id in id_map or id in skip_set:
             continue
-        cnt += 1
-        if(cnt==200):break
+        # cnt += 1
+        # if(cnt==200):break
 
         print(id)
 
