@@ -69,10 +69,10 @@ def get_content(url):
     # year = soup.find('span', class_ = 'year').get_text().strip('()')
     info = get_info(soup)
     rating = get_rating(soup)
-    if soup.find('div', class_ = 'intro') != None:
-        intro = "".join(soup.find('div', class_ = 'intro').get_text().split())
-    else:
+    if soup.find('span', class_ = "all hidden") != None:
         intro = "".join(soup.find('span', class_ = "all hidden").get_text().split())
+    else:
+        intro = "".join(soup.find('div', class_ = 'intro').get_text().split())
     # celebrities  = get_celebrities(url)
 
     content = {}
@@ -107,13 +107,15 @@ if __name__ == '__main__':
     except:
         skip_set = set()
 
-
+    # cnt = 0
     for line in fread.readlines():
         id = line.strip('\n')
 
         #防止重爬 && 跳过下架电影的id
         if id in id_map or id in skip_set:
             continue
+        # cnt += 1
+        # if(cnt==200):break
 
         print(id)
 
