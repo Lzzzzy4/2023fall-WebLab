@@ -74,10 +74,12 @@ class SkipList:
         self.p = 0.5
 
     def insert(self, val):
+        first = 0
         for lst in self.lists:
-            if random.random() > self.p:
+            if first == 0 or random.random() > self.p:
+                first = 1
                 lst.insert(val)
-            else :
+            else:
                 break
     
     #merge with and method
