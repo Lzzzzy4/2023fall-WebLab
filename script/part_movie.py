@@ -54,6 +54,7 @@ for line in ftag.readlines()[1:]:
 
 content = json.load(finfo)
 output = {}
+total_tag = set()
 
 for id in content:
     Type = content[id]['info']['类型']
@@ -79,4 +80,8 @@ for id in content:
 
     output[id] = "/".join(seg_set)
 
+    for seg in seg_set:
+        total_tag.add(seg)
+
 json.dump(output, fpart, ensure_ascii=False, indent=4)
+print("There are %d tags in total." % len(total_tag))
