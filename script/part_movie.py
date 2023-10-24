@@ -53,8 +53,6 @@ for line in ftag.readlines()[1:]:
     tag_map[id] = tag
 
 content = json.load(finfo)
-output = {}
-total_tag = set()
 
 for id in content:
     Type = content[id]['info']['类型']
@@ -78,10 +76,7 @@ for id in content:
         for tag in tag_map[id]:
             seg_set.add(tag)
 
-    output[id] = "/".join(seg_set)
+    # output[id] = "/".join(seg_set)
+    content[id]['tags'] = '/'.join(seg_set)
 
-    for seg in seg_set:
-        total_tag.add(seg)
-
-json.dump(output, fpart, ensure_ascii=False, indent=4)
-print("There are %d tags in total." % len(total_tag))
+json.dump(content, fpart, ensure_ascii=False, indent=4)
