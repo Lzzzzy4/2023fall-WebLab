@@ -20,7 +20,46 @@ class LinkedList:
 
         node.next = cur.next
         cur.next = node
+    
+    def merge_and(self, lst):
+        i = self.head
+        j = lst.head
+        new_lst = LinkedList()
+        while i != None and j != None:
+            if i.val == j.val:
+                new_lst.insert(i.val)
+                i = i.next
+                j = j.next
+            elif i.val < j.val:
+                i = i.next
+            else:
+                j = j.next
+        return new_lst
+    
+    def merge_or(self, lst):
+        i = self.head
+        j = lst.head
+        new_lst = LinkedList()
+        while i != None and j != None:
+            if i.val == j.val:
+                new_lst.insert(i.val)
+                i = i.next
+                j = j.next
+            elif i.val < j.val:
+                new_lst.insert(i.val)
+                i = i.next
+            else:
+                new_lst.insert(j.val)
+                j = j.next
 
+        while i != None:
+            new_lst.insert(i.val)
+            i = i.next
+        while j != None:
+            new_lst.insert(j.val)
+            j = j.next
+        
+        return new_lst
 class SkipList:
     def __init__(self, level) -> None:
         self.level = level
@@ -28,8 +67,21 @@ class SkipList:
         self.p = 0.5
 
     def insert(self, val):
-        for llist in self.lists:
+        for lst in self.lists:
             if random.random() > self.p:
-                llist.insert(val)
+                lst.insert(val)
             else :
                 break
+    
+    #merge with and method
+    def merge_and(self, lst):
+        new_lst = SkipList(self.level)
+        for i in range(self.level):
+            new_lst.lists[i] = self.lists[i].merge_and(lst.lists[i])
+        return new_lst
+
+    def merge_or(self, lst):
+        new_lst = SkipList(self.level)
+        for i in range(self.level):
+            new_lst.lists[i] = self.lists[i].merge_or(lst.lists[i])
+        return new_lst
