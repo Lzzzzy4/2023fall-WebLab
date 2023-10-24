@@ -58,8 +58,15 @@ class LinkedList:
         while j != None:
             new_lst.insert(j.val)
             j = j.next
-        
         return new_lst
+    
+    def gel_all(self):
+        i = self.head
+        while i != None:
+            yield i.val
+            i = i.next
+
+
 class SkipList:
     def __init__(self, level) -> None:
         self.level = level
@@ -85,3 +92,6 @@ class SkipList:
         for i in range(self.level):
             new_lst.lists[i] = self.lists[i].merge_or(lst.lists[i])
         return new_lst
+    
+    def get_all(self):
+        return self.lists[0].gel_all()
