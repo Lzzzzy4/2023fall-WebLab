@@ -29,6 +29,8 @@ level = int(math.ceil(math.log2(len(content))))
 for id in content:
     words = content[id]['tags'].split('/')
     for word in words:
+        if word in synonym:
+            word = synonym[word]
         if word not in lookup_table:
             lookup_table[word] = SkipList(level)
         lookup_table[word].insert(id)
