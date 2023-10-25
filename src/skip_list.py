@@ -15,7 +15,7 @@ class LinkedList:
             self.head = node
             return (None, node)
 
-        if cur != None:
+        if cur == None:
             cur = self.head
 
         while cur.next is not None and cur.next.val < val:
@@ -78,8 +78,8 @@ class SkipList:
         self.p = 0.5
 
     def rand_level(self):
-        level = 1
-        while random.random() < self.p and level < self.level:
+        level = 0
+        while random.random() < self.p and level + 1 < self.level:
             level += 1
         return level
 
@@ -87,7 +87,7 @@ class SkipList:
         rlevel = self.rand_level()
         pre = None
         cur = None
-        for i in range(rlevel, 0, -1):
+        for i in range(rlevel, -1, -1):
             (nxtpre, nxtcur) = self.lists[i].insert(val, pre)
             if cur != None:
                 cur.down = nxtcur
