@@ -5,6 +5,7 @@ class ListNode:
         self.val = val
         self.next = next
         self.down = down 
+
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -17,6 +18,11 @@ class LinkedList:
 
         if cur == None:
             cur = self.head
+        
+        if cur.val > val :
+            node = ListNode(val, cur)
+            self.head = node
+            return (None, node)
 
         while cur.next is not None and cur.next.val < val:
             cur = cur.next
@@ -25,45 +31,6 @@ class LinkedList:
         cur.next = node
         return (cur, node)
 
-    def merge_and(self, lst):
-        i = self.head
-        j = lst.head
-        new_lst = LinkedList()
-        while i != None and j != None:
-            if i.val == j.val:
-                new_lst.insert(i.val)
-                i = i.next
-                j = j.next
-            elif i.val < j.val:
-                i = i.next
-            else:
-                j = j.next
-        return new_lst
-    
-    def merge_or(self, lst):
-        i = self.head
-        j = lst.head
-        new_lst = LinkedList()
-        while i != None and j != None:
-            if i.val == j.val:
-                new_lst.insert(i.val)
-                i = i.next
-                j = j.next
-            elif i.val < j.val:
-                new_lst.insert(i.val)
-                i = i.next
-            else:
-                new_lst.insert(j.val)
-                j = j.next
-
-        while i != None:
-            new_lst.insert(i.val)
-            i = i.next
-        while j != None:
-            new_lst.insert(j.val)
-            j = j.next
-        return new_lst
-    
     def gel_all(self):
         i = self.head
         while i != None:
@@ -97,17 +64,70 @@ class SkipList:
             
             (pre, cur) = (nxtpre, nxtcur)
     
+    def find(self, val):
+        # return the first node >= val
+        # find the last node < val and return node.next
+        cur = None
+        for i in range(self.level - 1, -1, -1):
+            if cur == None:
+                cur = self.lists[i].head
+            else:
+                cur = cur.down
+            while cur != None:
+                if cur.next != None and cur.next.val >= val:
+                    break
+                else :
+                    cur = cur.next
+        
+        if cur == None:
+            return None
+        else:
+            return cur.next
+
     #merge with and method
     def merge_and(self, lst):
         new_lst = SkipList(self.level)
-        for i in range(self.level):
-            new_lst.lists[i] = self.lists[i].merge_and(lst.lists[i])
+        
+        i = self.lists[0].head
+        j = lst.lists[0].head
+
+        while i != None and j != None:
+            if i.val == j.val:
+                new_lst.insert(i.val)
+                i = i.next
+                j = j.next
+            elif i.val < j.val:
+                i = self.find(j.val)
+            else:
+                j = lst.find(i.val)
+
         return new_lst
 
     def merge_or(self, lst):
         new_lst = SkipList(self.level)
-        for i in range(self.level):
-            new_lst.lists[i] = self.lists[i].merge_or(lst.lists[i])
+        i = self.lists[0].head
+        j = lst.lists[0].head
+
+        while i != None and j != None:
+            if i.val == j.val:
+                new_lst.insert(i.val)
+                i = i.next
+                j = j.next
+            elif i.val < j.val:
+                new_lst.insert(i.val)
+                i = i.next
+            else:
+                new_lst.insert(j.val)
+                j = j.next
+
+        while i!= None:
+            new_lst.insert(i.val)
+            i = i.next
+
+        while j!= None:
+            new_lst.insert(j.val)
+            j = j.next
+
         return new_lst
     
     def get_all(self):
