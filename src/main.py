@@ -1,14 +1,14 @@
 from index import index
-from path import pathpck
+from config import config
 from part import part
 def part_run(word:str) -> None:
-    pck = pathpck(word)
-    p = part(pck, word)
+    pck = config(word)
+    p = part(pck)
     p.run()
 
 def index_run(word:str) -> None:
-    pck = pathpck(word)
-    i = index(pck, word)
+    pck = config(word, "block")
+    i = index(pck)
     i.run()
     print("input Boolean Retrieval")
     i.query()
