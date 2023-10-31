@@ -1,9 +1,9 @@
 import jieba
 import json
-from path import pathpck
+from config import config
 
 class part:
-    def __init__(self, pck:pathpck, type:str) -> None:
+    def __init__(self, pck:config, type:str) -> None:
         self.type = type
         self.part_path = pck.part_path
         self.info_path = pck.info_path

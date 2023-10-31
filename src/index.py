@@ -2,13 +2,15 @@ import json
 import math
 from skip_list import SkipList
 from expression import expression
-from path import pathpck
+from index_compress import map_frefix_compress, map_block_compress
+from config import config
 
 class index:
-    def __init__(self, pck:pathpck, type:str) -> None:
+    def __init__(self, pck:config, type:str) -> None:
         self.type = type
         self.part_path = pck.part_path
         self.synonym_path = pck.synonym_path
+        self.compress_method = pck.compress_method
         pass
 
     def run(self) -> None:
@@ -26,6 +28,12 @@ class index:
                 synonym[word] = words[1]
 
         self.content = json.load(fpart)
+        if self.compress_method == "prefix":
+            map = map_frefix_compress()
+            self.content = map.compress(self.content)
+        elif self.compress_method == "block":
+            map = map_block_compress(5)
+            self.content = map.compress(self.content)
 
         self.lookup_table = {}
 
