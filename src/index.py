@@ -6,8 +6,8 @@ from index_compress import map_frefix_compress, map_block_compress
 from config import config
 
 class index:
-    def __init__(self, pck:config, type:str) -> None:
-        self.type = type
+    def __init__(self, pck:config) -> None:
+        self.type = pck.type
         self.part_path = pck.part_path
         self.synonym_path = pck.synonym_path
         self.compress_method = pck.compress_method
@@ -30,17 +30,19 @@ class index:
         self.content = json.load(fpart)
         if self.compress_method == "prefix":
             map = map_frefix_compress()
-            self.content = map.compress(self.content)
+            map.compress(self.content)
+            self.content = map
         elif self.compress_method == "block":
             map = map_block_compress(5)
-            self.content = map.compress(self.content)
+            map.compress(self.content)
+            self.content = map
 
         self.lookup_table = {}
 
         self.level = int(math.ceil(math.log2(len(self.content))))
 
-        for id in self.content:
-            words = self.content[id]['tags'].split('/')
+        for id in self.content.keys():
+            words = self.get_tags(id)
             for word in words:
                 if word in synonym:
                     word = synonym[word]
@@ -56,3 +58,10 @@ class index:
                 print(i, self.content[i]['name'], self.content[i]['info']['类型'])
             else :
                 print(i, self.content[i]['name'])
+
+    def get_tags(self, id) -> dict:
+        if self.compress_method == "prefix" or self.compress_method == "block":
+            return self.content.get_tags(id)
+        else:
+            return self.content[id]['tags'].split('/')
+        

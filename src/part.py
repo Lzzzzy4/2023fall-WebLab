@@ -3,8 +3,8 @@ import json
 from config import config
 
 class part:
-    def __init__(self, pck:config, type:str) -> None:
-        self.type = type
+    def __init__(self, pck:config) -> None:
+        self.type = pck.type
         self.part_path = pck.part_path
         self.info_path = pck.info_path
         self.tag_path = pck.tag_path
