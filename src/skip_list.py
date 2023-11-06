@@ -1,16 +1,20 @@
 import random
 
+
 class ListNode:
-    def __init__(self, val, next = None, down = None):
+
+    def __init__(self, val, next=None, down=None):
         self.val = val
         self.next = next
-        self.down = down 
+        self.down = down
+
 
 class LinkedList:
+
     def __init__(self):
         self.head = None
 
-    def insert(self, val, cur = None):
+    def insert(self, val, cur=None):
         if self.head is None:
             node = ListNode(val)
             self.head = node
@@ -18,8 +22,8 @@ class LinkedList:
 
         if cur == None:
             cur = self.head
-        
-        if cur.val > val :
+
+        if cur.val > val:
             node = ListNode(val, cur)
             self.head = node
             return (None, node)
@@ -39,6 +43,7 @@ class LinkedList:
 
 
 class SkipList:
+
     def __init__(self, level) -> None:
         self.level = level
         self.lists = [LinkedList() for i in range(level)]
@@ -61,9 +66,9 @@ class SkipList:
 
             if nxtpre != None:
                 nxtpre = nxtpre.down
-            
+
             (pre, cur) = (nxtpre, nxtcur)
-    
+
     def find(self, val):
         # return the first node >= val
         # find the last node < val and return node.next
@@ -76,9 +81,9 @@ class SkipList:
             while cur != None:
                 if cur.next != None and cur.next.val >= val:
                     break
-                else :
+                else:
                     cur = cur.next
-        
+
         if cur == None:
             return None
         else:
@@ -87,7 +92,7 @@ class SkipList:
     #merge with and method
     def merge_and(self, lst):
         new_lst = SkipList(self.level)
-        
+
         i = self.lists[0].head
         j = lst.lists[0].head
 
@@ -120,15 +125,15 @@ class SkipList:
                 new_lst.insert(j.val)
                 j = j.next
 
-        while i!= None:
+        while i != None:
             new_lst.insert(i.val)
             i = i.next
 
-        while j!= None:
+        while j != None:
             new_lst.insert(j.val)
             j = j.next
 
         return new_lst
-    
+
     def get_all(self):
         return self.lists[0].gel_all()
