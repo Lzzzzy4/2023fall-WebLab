@@ -5,8 +5,10 @@ from expression import expression
 from index_compress import map_frefix_compress, map_block_compress
 from config import config
 
+
 class index:
-    def __init__(self, pck:config) -> None:
+
+    def __init__(self, pck: config) -> None:
         self.type = pck.type
         self.part_path = pck.part_path
         self.synonym_path = pck.synonym_path
@@ -51,12 +53,14 @@ class index:
                 self.lookup_table[word].insert(id)
 
     def query(self) -> None:
-        result = expression(input(), self.lookup_table, SkipList(self.level)).get_result()
+        result = expression(input(), self.lookup_table,
+                            SkipList(self.level)).get_result()
 
         for i in result.get_all():
             if self.type == 'Movie':
-                print(i, self.content[i]['name'], self.content[i]['info']['类型'])
-            else :
+                print(i, self.content[i]['name'],
+                      self.content[i]['info']['类型'])
+            else:
                 print(i, self.content[i]['name'])
 
     def get_tags(self, id) -> dict:
@@ -64,4 +68,3 @@ class index:
             return self.content.get_tags(id)
         else:
             return self.content[id]['tags'].split('/')
-        
