@@ -17,6 +17,7 @@ class index:
         pass
 
     def run(self) -> None:
+        start = time.time()
 
         fpart = open(self.part_path, 'r', encoding='utf-8')
         fsynonym = open(self.synonym_path, 'r', encoding='utf-8')
@@ -53,6 +54,9 @@ class index:
                     self.lookup_table[word] = SkipList(self.level)
                 self.lookup_table[word].insert(id)
 
+        end = time.time()
+        print('totally run time is ', end - start)
+
     def query(self) -> None:
         print("input Boolean Retrieval")
         word = input()
@@ -68,7 +72,7 @@ class index:
                 print(i, self.content[i]['name'])
 
         end = time.time()
-        print('totally time is ', end - start)
+        print('totally query time is ', end - start)
 
 
     def get_tags(self, id) -> dict:

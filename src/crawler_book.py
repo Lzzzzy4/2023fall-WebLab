@@ -127,6 +127,7 @@ if __name__ == '__main__':
     # cnt = 0
     for line in fread.readlines():
         time.sleep(0.1)
+
         id = line.strip('\n')
 
         #防止重爬 && 跳过下架电影的id
