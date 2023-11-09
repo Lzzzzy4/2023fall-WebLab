@@ -1,5 +1,6 @@
 import json
 import math
+import time
 from skip_list import SkipList
 from expression import expression
 from index_compress import map_frefix_compress, map_block_compress
@@ -53,7 +54,10 @@ class index:
                 self.lookup_table[word].insert(id)
 
     def query(self) -> None:
-        result = expression(input(), self.lookup_table,
+        print("input Boolean Retrieval")
+        word = input()
+        start = time.time()
+        result = expression(word, self.lookup_table,
                             SkipList(self.level)).get_result()
 
         for i in result.get_all():
@@ -62,6 +66,10 @@ class index:
                       self.content[i]['info']['类型'])
             else:
                 print(i, self.content[i]['name'])
+
+        end = time.time()
+        print('totally time is ', end - start)
+
 
     def get_tags(self, id) -> dict:
         if self.compress_method == "prefix" or self.compress_method == "block":

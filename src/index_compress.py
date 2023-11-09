@@ -10,16 +10,16 @@ class map_frefix_compress:
         self.len = len(content)
         for id in content:
             self.trie[str(id)] = content[id]
-            words_trie = Trie()
+            # words_trie = Trie()
             words = content[id]['tags'].split('/')
             cnt = 0
             for word in words:
-                words_trie[word] = cnt
+                # words_trie[word] = cnt
                 cnt += 1
-            self.trie[id]['tags'] = words_trie
+            self.trie[id]['tags'] = words
 
     def get_tags(self, id: int) -> list:
-        return self.trie[str(id)]['tags'].keys()
+        return self.trie[str(id)]['tags']
 
     def keys(self) -> list:
         return self.trie.keys()
