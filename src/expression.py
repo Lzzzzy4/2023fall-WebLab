@@ -21,7 +21,7 @@ class expression:
                     self.stack[self.top - 1])
             self.top -= 2
 
-    def __init__(self, s: str, lookup_table: map,
+    def __init__(self, s: str, lookup_table: map, synonym_table: map,
                  empty_element: SkipList) -> None:
         s = s.split(' ')
         self.stack = []
@@ -38,10 +38,14 @@ class expression:
                 if word == 'or':
                     self.calculate('and')
                 self.insert(word)
-            elif word in lookup_table:
-                self.insert(lookup_table[word])
             else:
-                self.insert(empty_element)
+                if word in synonym_table:
+                    word = synonym_table[word]
+
+                if word in lookup_table:
+                    self.insert(lookup_table[word])
+                else:
+                    self.insert(empty_element)
 
         self.calculate('and')
         self.calculate('or')

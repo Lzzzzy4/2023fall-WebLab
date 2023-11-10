@@ -14,6 +14,7 @@ class index:
         self.part_path = pck.part_path
         self.synonym_path = pck.synonym_path
         self.compress_method = pck.compress_method
+        self.synonym = {}
         pass
 
     def run(self) -> None:
@@ -22,14 +23,13 @@ class index:
         fpart = open(self.part_path, 'r', encoding='utf-8')
         fsynonym = open(self.synonym_path, 'r', encoding='utf-8')
 
-        synonym = {}
         for line in fsynonym:
             line = line.strip()
             if line == '':
                 continue
             words = line.split(' ')
             for word in words[2:]:
-                synonym[word] = words[1]
+                self.synonym[word] = words[1]
 
         self.content = json.load(fpart)
         if self.compress_method == "prefix":
@@ -48,8 +48,8 @@ class index:
         for id in self.content.keys():
             words = self.get_tags(id)
             for word in words:
-                if word in synonym:
-                    word = synonym[word]
+                if word in self.synonym:
+                    word = self.synonym[word]
                 if word not in self.lookup_table:
                     self.lookup_table[word] = SkipList(self.level)
                 self.lookup_table[word].insert(id)
@@ -61,7 +61,7 @@ class index:
         print("input Boolean Retrieval")
         word = input()
         start = time.time()
-        result = expression(word, self.lookup_table,
+        result = expression(word, self.lookup_table, self.synonym,
                             SkipList(self.level)).get_result()
 
         for i in result.get_all():
@@ -73,7 +73,6 @@ class index:
 
         end = time.time()
         print('totally query time is ', end - start)
-
 
     def get_tags(self, id) -> dict:
         if self.compress_method == "prefix" or self.compress_method == "block":
