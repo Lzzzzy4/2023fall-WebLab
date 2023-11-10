@@ -1,5 +1,5 @@
 import jieba
-import thulac
+# import thulac
 import json
 from config import config
 
@@ -60,7 +60,7 @@ class part:
 
         content = json.load(finfo)
 
-        cuter = thulac.thulac(seg_only=True)
+        # cuter = thulac.thulac(seg_only=True)
 
         for id in content:
             if self.type == "Movie":
