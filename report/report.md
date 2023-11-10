@@ -176,9 +176,54 @@ for id in content:
 1485260 本杰明·巴顿奇事 The Curious Case of Benjamin Button ['剧情', '爱情', '奇幻']
 ...
 3008247 穿条纹睡衣的男孩 The Boy in the Striped Pajamas ['剧情', '战争']
+...
 ```
 
-面向《本杰明·巴顿奇事》 检索，输入
+面向《美丽心灵》 检索，输入`剧情 and 传记`，结果如下：
+
+```
+
+```
+
+输入`福布斯 or 纳什 or 艾丽西亚`，结果如下：
+
+```
+1306029 美丽心灵 A Beautiful Mind ['剧情', '传记']
+3541415 盗梦空间 Inception ['剧情', '科幻', '悬疑', '冒险']
+```
+
+面向《本杰明·巴顿奇事》 检索，输入`剧情 and 爱情 and 奇幻`，结果如下：
+
+```
+
+```
+
+输入`戴茜 or 本杰明 or 巴顿 or 凯若琳`，结果如下：
+
+```
+1303173 甲方乙方 喜剧 ['喜剧']
+1485260 本杰明·巴顿奇事 The Curious Case of Benjamin Button ['剧情', '爱情', '奇幻']
+```
+
+面向《穿条纹睡衣的男孩》检索，输入`剧情 and 战争`，结果如下：
+
+```
+1292849 拯救大兵瑞恩 Saving Private Ryan ['剧情', '战争']
+1293318 萤火虫之墓 火垂るの墓 ['剧情', '动画', '战争']
+1293764 与狼共舞 Dances with Wolves ['剧情', '西部', '冒险']
+...
+3008247 穿条纹睡衣的男孩 The Boy in the Striped Pajamas ['剧情', '战争']
+...
+```
+
+输入`布鲁诺 or 纳粹 or 条纹睡衣`，结果如下：
+
+```
+1291565 疯狂约会美丽都 Les triplettes de Belleville ['喜剧', '动画']
+1292504 柏林苍穹下 Der Himmel über Berlin ['剧情', '爱情', '奇幻']
+1295873 偷自行车的人 Ladri di biciclette ['剧情', '犯罪']
+3008247 穿条纹睡衣的男孩 The Boy in the Striped Pajamas ['剧情', '战争']
+```
 
 ### 3.推荐
 
