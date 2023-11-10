@@ -1,4 +1,5 @@
 import jieba
+import thulac
 import json
 from config import config
 
@@ -59,20 +60,27 @@ class part:
 
         content = json.load(finfo)
 
+        cuter = thulac.thulac(seg_only=True)
+
         for id in content:
             if self.type == "Movie":
                 Type = content[id]['info']['类型']
             intro = content[id]['intro']
             seg_list = jieba.cut(intro)
-
-            # 合并同义词 && 去除停用词
-
             seg_set = set()
+            # 合并同义词 && 去除停用词
             for seg in seg_list:
                 if seg in synonym:
                     seg_set.add(synonym[seg])
                 elif seg not in stop_word:
                     seg_set.add(seg)
+
+            # seg_list = cuter.cut(intro)
+            # for seg in seg_list:
+            #     if seg[0] in synonym:
+            #         seg_set.add(synonym[seg[0]])
+            #     elif seg[0] not in stop_word:
+            #         seg_set.add(seg[0])
 
             # merge seg_set and type
             if self.type == "Movie":
