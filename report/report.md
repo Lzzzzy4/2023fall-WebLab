@@ -182,7 +182,15 @@ for id in content:
 面向《美丽心灵》 检索，输入`剧情 and 传记`，结果如下：
 
 ```
-
+1296736 钢琴家 The Pianist ['剧情', '音乐', '传记', '战争']
+1305487 猫鼠游戏 Catch Me If You Can ['剧情', '传记', '犯罪']
+1306029 美丽心灵 A Beautiful Mind ['剧情', '传记']
+1308831 寻找梦幻岛 Finding Neverland ['剧情', '家庭', '传记']
+1309015 摩托日记 Diarios de motocicleta ['剧情', '传记', '冒险']
+1441602 霍元甲 ['剧情', '动作', '传记']
+1476023 绝代艳后 Marie Antoinette ['剧情', '传记', '历史']
+...
+4164444 127小时 127 Hours ['剧情', '传记', '冒险']
 ```
 
 输入`福布斯 or 纳什 or 艾丽西亚`，结果如下：
@@ -195,7 +203,10 @@ for id in content:
 面向《本杰明·巴顿奇事》 检索，输入`剧情 and 爱情 and 奇幻`，结果如下：
 
 ```
-
+2135981 画皮 畫皮 ['剧情', '爱情', '惊悚', '奇幻']
+2268359 暮光之城 Twilight ['剧情', '爱情', '惊悚', '奇幻']
+3148027 暮光之城2：新月 The Twilight Saga: New Moon ['剧情', '爱情', '惊悚', '奇幻']
+3289086 暮光之城3：月食 The Twilight Saga: Eclipse ['剧情', '爱情', '惊悚', '奇幻']
 ```
 
 输入`戴茜 or 本杰明 or 巴顿 or 凯若琳`，结果如下：
@@ -220,8 +231,19 @@ for id in content:
 
 ```
 1291565 疯狂约会美丽都 Les triplettes de Belleville ['喜剧', '动画']
+1292063 美丽人生 La vita è bella ['剧情', '喜剧', '爱情', '战争']
+1292272 大象 Elephant ['剧情', '犯罪']
 1292504 柏林苍穹下 Der Himmel über Berlin ['剧情', '爱情', '奇幻']
+1294408 音乐之声 The Sound of Music ['剧情', '爱情', '歌舞', '传记']
 1295873 偷自行车的人 Ladri di biciclette ['剧情', '犯罪']
+1296717 夺宝奇兵 Raiders of the Lost Ark ['动作', '冒险']
+1296736 钢琴家 The Pianist ['剧情', '音乐', '传记', '战争']
+1296753 卡萨布兰卡 Casablanca ['剧情', '爱情', '战争']
+1307847 兄弟连 Band of Brothers ['剧情', '动作', '历史', '战争']
+2028645 拆弹部队 The Hurt Locker ['剧情', '惊悚', '战争']
+2028647 行动目标希特勒 Valkyrie ['剧情', '历史', '战争']
+2213597 朗读者 The Reader ['剧情', '爱情']
+2297265 浪潮 Die Welle ['剧情', '惊悚']
 3008247 穿条纹睡衣的男孩 The Boy in the Striped Pajamas ['剧情', '战争']
 ```
 
